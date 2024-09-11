@@ -1,0 +1,4 @@
+name: CropLore
+version: '${project.version}'
+main: me.rimon.croplore.CropLore
+api-version: '1.21'
