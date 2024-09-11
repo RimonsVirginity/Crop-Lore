@@ -16,17 +16,14 @@ public class CropLore extends JavaPlugin {
     public void onEnable() {
         instance = this;
 
-        // Load the configuration file
         saveDefaultConfig();
         loadCropsFromConfig();
 
-        // Register the crop break event listener
         getServer().getPluginManager().registerEvents(new list(), this);
     }
 
     @Override
     public void onDisable() {
-        // Any necessary cleanup
     }
 
     public static CropLore getInstance() {
